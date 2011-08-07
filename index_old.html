@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FreeFall High Score</title>
+	<link href="reset.css" rel="stylesheet" type="text/css" />
+	<style>
+		html, body { 
+			height: 100%; 
+		}
+		#wrapper {
+			width:100%;
+			height:100%;
+		}
+		#headerContainer {
+			width:100%;
+			margin:0px;
+			padding:0px;
+			height:156px;
+			background: url('images/headerbg.png') repeat-x 0 0;
+		}
+		.innerWrapper {
+			width:1280px;
+			height:100%;
+			margin:0px auto;
+		}
+		#branding {
+			width:300px;
+			height:100px;
+			margin:25px;
+			display:block;
+			float:left;
+		}
+		#navigationContainer {
+			width:600px;
+			height:50px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			background-color:rgba(0, 0, 0, .4);
+			display:block;
+			float:right;
+			margin:50px;
+		}
+		#navigationContainer ul {
+			padding:8px;
+		}
+		#navigationContainer ul li {
+			height: 15px;
+			padding:10px 10px;
+			margin:0px 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			background: #333;
+			color:#ccc;
+			display:block;
+			float:left;
+		}
+		#contentContainer {
+			width:1350px;
+			height:100%;
+			padding:0px 35px;
+			margin:0px auto;
+			display:block;
+			background: url('images/contentbg.png') repeat-y top center;
+		}
+		#contentWrapper {
+			margin:0px;
+			padding:35px 55px;;
+		}
+		.youtubeContainer {
+			width:1180px;
+			height:510px;
+			background: url('images/ytbg.png') no-repeat 0 0;
+			display:block;
+			margin:0px auto;
+			padding:12px;
+		}
+		.youtubeContainer iframe {
+			width:853px;
+			height:510px;
+			display:block;
+			margin:0px;
+			float:left;
+		}
+		.youtubeContainer .ytInfoContainer {
+			width:327px;
+			height:510px;
+			display:block;
+			margin:0px;
+			float:left;
+		}
+		.youtubeInfo {
+			width:327px;
+			height:80px;
+			background: url('images/ytinfo.png') no-repeat 0 0;
+			margin-bottom: 5px;
+		}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="headerContainer">
+		<div class="innerWrapper">
+			<div id="branding">branding logo</div>
+			<div id="navigationContainer">
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li>Collaborators</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="contentContainer">
+		<div id="contentWrapper">
+			<div class="youtubeContainer">
+				<iframe width="853" height="510" src="http://www.youtube.com/embed/mSLAF_DjiDU?hd=1" frameborder="0" allowfullscreen></iframe>
+				<div class="ytInfoContainer">
+					<div>
+						1st Place
+						<div class="ytduration">10 Seconds</div>
+					</div>
+					<div class="youtubeInfo">
+						Name
+					</div>
+					<div class="youtubeInfo">
+						Date
+					</div>
+					<div class="youtubeInfo">
+						Where
+					</div>
+					<div class="youtubeInfo">
+						Time
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
