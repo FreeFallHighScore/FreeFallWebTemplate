@@ -3,6 +3,10 @@
 	padding:0px;
 	margin:0px;
 }		
+
+body,html{
+  overflow-x: hidden;
+}
 @font-face {
     font-family: 'ErthqakeRegular';
     src: url('../fonts/erthqake-webfont.eot');
@@ -143,3 +147,4 @@
 	text-align: center;
 	width:205px;
 }
+
